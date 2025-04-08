@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Swiper Slider - Abstract Art Gallery 💫</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Swiper Slider - Abstract Art Gallery</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://public.codepenassets.com/css/normalize-5.0.0.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://bato-web-agency.github.io/bato-shared/css/template.css?v=1.3"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&amp;family=Oswald:wght@200..700&amp;display=swap"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <!-- <div class="phone-wrapper">
+        <div class="phone-camera"></div>
+        <div class="phone-button"></div> -->
+    <!-- partial:index.partial.html -->
+    <div class="preview">
+      <img
+        src="https://bato-web-agency.github.io/bato-shared/img/emotions-slider-preview.jpg"
+      />
+    </div>
+
+    <section class="base-template">
+      <div class="wrapper base-template__wrapper">
+        <div class="base-template__content">
+          <div class="time-date-bar">
+            <div class="time-display-top">15:27</div>
+            <div class="date-display-top">19 июля 2024</div>
+          </div>
+
+          <div class="emotions-slider">
+            <!-- Slider Navigation -->
+
+            <div class="emotions-slider__nav slider-nav">
+              <div tabindex="0" class="slider-nav__item slider-nav__item_prev">
+                <svg
+                  width="16"
+                  height="28"
+                  viewBox="0 0 16 28"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M14 26L2 14L14 2"
+                    stroke="white"
+                    stroke-width="4"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </div>
+              <div tabindex="0" class="slider-nav__item slider-nav__item_next">
+                <svg
+                  width="16"
+                  height="28"
+                  viewBox="0 0 16 28"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M2 26L14 14L2 2"
+                    stroke="white"
+                    stroke-width="4"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </div>
+            </div>
+
+            <!-- Slider Content -->
+
+            <div class="emotions-slider__slider swiper">
+              <div class="emotions-slider__wrapper swiper-wrapper">
+                <!-- Slider: Slide 1 -->
+
+                <!-- Слайд 1 -->
+                <div class="emotions-slider__slide swiper-slide">
+                  <div class="emotions-slider__item emotions-slider-item">
+                    <div class="emotions-slider-item__header">
+                      <div class="time-display">08:45</div>
+                    </div>
+                    <div class="emotions-slider-item__content">
+                      <div class="emotions-slider-item__info">
+                        <h2 class="emotions-slider-item__title">ΕΤΟ</h2>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Слайд 2 -->
+                <div class="emotions-slider__slide swiper-slide">
+                  <div class="emotions-slider__item emotions-slider-item">
+                    <div class="emotions-slider-item__header">
+                      <div class="time-display">02:15</div>
+                    </div>
+                    <div class="emotions-slider-item__content">
+                      <div class="emotions-slider-item__info">
+                        <h2 class="emotions-slider-item__title">
+                          ТЕХ. ПРОСТОЙ
+                        </h2>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Слайд 3 -->
+                <div class="emotions-slider__slide swiper-slide">
+                  <div class="emotions-slider__item emotions-slider-item">
+                    <div class="emotions-slider-item__header">
+                      <div class="time-display">00:45</div>
+                    </div>
+                    <div class="emotions-slider-item__content">
+                      <div class="emotions-slider-item__info">
+                        <h2 class="emotions-slider-item__title">ПЕРЕЕЗД</h2>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Слайд 4 (с деталями) -->
+                <div class="emotions-slider__slide swiper-slide">
+                  <div class="emotions-slider__item emotions-slider-item">
+                    <div class="emotions-slider-item__header">
+                      <div class="time-display">03:30</div>
+                    </div>
+                    <div class="emotions-slider-item__content">
+                      <div class="emotions-slider-item__info">
+                        <h2 class="emotions-slider-item__title">
+                          РЕМ. ПРОСТОЙ
+                        </h2>
+                      </div>
+                    </div>
+                    <div class="emotions-slider-item__footer">
+                      <div class="emotions-slider-item__footer-inner">
+                        <ul class="details-list">
+                          <li class="details-item">
+                            <span class="detail-key">Причина</span>
+                            <span class="detail-value"
+                              >Замена гидроцилиндра</span
+                            >
+                          </li>
+                          <li class="details-item">
+                            <span class="detail-key">Ответственный</span>
+                            <span class="detail-value"
+                              >Сервисная бригада №2</span
+                            >
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Слайд 5 -->
+                <div class="emotions-slider__slide swiper-slide">
+                  <div class="emotions-slider__item emotions-slider-item">
+                    <div class="emotions-slider-item__header">
+                      <div class="time-display">05:20</div>
+                    </div>
+                    <div class="emotions-slider-item__content">
+                      <div class="emotions-slider-item__info">
+                        <h2 class="emotions-slider-item__title">
+                          РАБОТА ПО НАРЯДУ
+                        </h2>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Слайд 6 (с деталями) -->
+                <div class="emotions-slider__slide swiper-slide">
+                  <div class="emotions-slider__item emotions-slider-item">
+                    <div class="emotions-slider-item__header">
+                      <div class="time-display">00:25</div>
+                    </div>
+                    <div class="emotions-slider-item__content">
+                      <div class="emotions-slider-item__info">
+                        <h2 class="emotions-slider-item__title">
+                          ЗАПРАВКА ГСМ
+                        </h2>
+                      </div>
+                    </div>
+                    <div class="emotions-slider-item__footer">
+                      <div class="emotions-slider-item__footer-inner">
+                        <ul class="details-list">
+                          <li class="details-item">
+                            <span class="detail-key">Дизельное топливо</span>
+                            <span class="detail-value">420 л</span>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Slider Pagination -->
+
+            <div class="emotions-slider__pagination slider-pagination"></div>
+          </div>
+        </div>
+      </div>
+      <!-- </div> -->
+    </section>
+    <!-- partial -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="https://bato-web-agency.github.io/bato-shared/js/preview.js?v=1.1"></script>
+    <script src="./script.js"></script>
+  </body>
+</html>
